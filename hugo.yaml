@@ -32,7 +32,7 @@ params:
   disableScrollToTop: false
   disableSpecial1stPost: false
   homeInfoParams:
-    Title: Hi, there is Mr.zzz Space!
+    Title: Hi, there is my space!
     content: Can be Info, links, about...
   socialIcons:
     - name: "x"
