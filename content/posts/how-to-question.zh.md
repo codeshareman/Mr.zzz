@@ -7,7 +7,7 @@ weight: 1
 cover:
   # linkFullImages: true
   # responsiveImages: true
-  image: "/how-to-ask.png"
+  image: "./how-to-ask.png"
   alt: "How To Ask Question"
 ---
 
