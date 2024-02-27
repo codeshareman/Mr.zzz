@@ -2,87 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/posts/how-to-question/</loc>
+    <loc>https://example.org/en/posts/how-to-question/</loc>
     <lastmod>2024-02-26T23:23:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh/posts/how-to-question/"
+                href="https://example.org/zh/posts/how-to-question/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/posts/how-to-question/"
+                href="https://example.org/en/posts/how-to-question/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://example.org/en/categories/</loc>
     <lastmod>2024-02-26T23:23:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh/categories/"
+                href="https://example.org/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/categories/"
+                href="https://example.org/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/methodology/</loc>
+    <loc>https://example.org/en/tags/methodology/</loc>
     <lastmod>2024-02-26T23:23:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
-    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/categories/philosophy/</loc>
-    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/posts/</loc>
+    <loc>https://example.org/en/</loc>
     <lastmod>2024-02-26T23:23:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh/posts/"
+                href="https://example.org/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/posts/"
+                href="https://example.org/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://example.org/en/categories/philosophy/</loc>
+    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/en/posts/</loc>
     <lastmod>2024-02-26T23:23:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh/tags/"
+                href="https://example.org/zh/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/tags/"
+                href="https://example.org/en/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/search/</loc>
+    <loc>https://example.org/en/tags/</loc>
+    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh/search/"
+                href="https://example.org/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/search/"
+                href="https://example.org/en/tags/"
+                />
+  </url><url>
+    <loc>https://example.org/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://example.org/zh/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://example.org/en/search/"
                 />
   </url>
 </urlset>
