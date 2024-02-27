@@ -2,40 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/zh/categories/</loc>
+    <loc>https://example.org/zh/posts/how-to-question/</loc>
+    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/zh/categories/</loc>
+    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                hreflang="en-US"
+                href="https://example.org/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/zh/categories/"
+                hreflang="zh-CN"
+                href="https://example.org/zh/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/</loc>
+    <loc>https://example.org/zh/</loc>
+    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/"
+                hreflang="en-US"
+                href="https://example.org/en/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/zh/"
+                hreflang="zh-CN"
+                href="https://example.org/zh/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/tags/</loc>
+    <loc>https://example.org/zh/posts/</loc>
+    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/zh/tags/</loc>
+    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                hreflang="en-US"
+                href="https://example.org/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/zh/tags/"
+                hreflang="zh-CN"
+                href="https://example.org/zh/tags/"
                 />
+  </url><url>
+    <loc>https://example.org/zh/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/</loc>
+    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/zh/categories/%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/zh/search.fr/</loc>
+  </url><url>
+    <loc>https://example.org/search/</loc>
   </url>
 </urlset>

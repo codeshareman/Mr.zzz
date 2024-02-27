@@ -23,6 +23,17 @@ menu:
       weight: 4      
 
 enableEmoji: true 
+defaultContentLanguage: zh
+defaultContentLanguageInSubdir: true
+languages:
+  zh:
+    languageCode: zh-CN
+    languageName: chinsese
+    weight: 2
+  en:
+    languageCode: en-US
+    languageName: English
+    weight: 1
 markup:
   highlight:
     # anchorLineNos: true
