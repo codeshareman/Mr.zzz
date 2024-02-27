@@ -2,59 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/zh/posts/how-to-question/</loc>
-    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
-  </url><url>
-    <loc>https://example.org/zh/categories/</loc>
+    <loc>http://localhost:1313/zh/posts/how-to-question/</loc>
     <lastmod>2024-02-26T23:23:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://example.org/en/categories/"
+                href="http://localhost:1313/en/posts/how-to-question/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="https://example.org/zh/categories/"
+                href="http://localhost:1313/zh/posts/how-to-question/"
                 />
   </url><url>
-    <loc>https://example.org/zh/</loc>
+    <loc>http://localhost:1313/zh/categories/</loc>
     <lastmod>2024-02-26T23:23:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://example.org/en/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="https://example.org/zh/"
+                href="http://localhost:1313/zh/categories/"
                 />
   </url><url>
-    <loc>https://example.org/zh/posts/</loc>
-    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
-  </url><url>
-    <loc>https://example.org/zh/tags/</loc>
+    <loc>http://localhost:1313/zh/</loc>
     <lastmod>2024-02-26T23:23:16+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://example.org/en/tags/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="https://example.org/zh/tags/"
+                href="http://localhost:1313/zh/"
                 />
   </url><url>
-    <loc>https://example.org/zh/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/</loc>
+    <loc>http://localhost:1313/zh/posts/</loc>
+    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/tags/</loc>
+    <lastmod>2024-02-26T23:23:16+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/</loc>
     <lastmod>2024-02-26T23:23:16+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/zh/categories/%E5%93%B2%E5%AD%A6/</loc>
+    <loc>http://localhost:1313/zh/categories/%E5%93%B2%E5%AD%A6/</loc>
     <lastmod>2024-02-26T23:23:16+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/zh/search.fr/</loc>
-  </url><url>
-    <loc>https://example.org/search/</loc>
+    <loc>http://localhost:1313/zh/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/search/"
+                />
   </url>
 </urlset>
