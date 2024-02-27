@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - Mr.zzz">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -102,13 +102,18 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/categories/" title="Categories">
-                    <span>Categories</span>
+                <a href="http://localhost:1313/categories/" title="分类">
+                    <span>分类</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tags/" title="Tags">
-                    <span>Tags</span>
+                <a href="http://localhost:1313/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
                 </a>
             </li>
         </ul>
@@ -130,14 +135,10 @@
 </header>
 
 <article class="post-entry"> 
+<figure class="entry-cover"><img loading="lazy" src="http://localhost:1313/how-to-ask.png" alt="How To Ask Question">
+</figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">提问的智慧
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
     </h2>
   </header>
   <div class="entry-content">
@@ -151,79 +152,14 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
 本文另有繁體中文版。
 原文版本历史 目录 声明 简介 在提问之前 当你提问时 慎选提问的论坛 Stack Overflow 网站和 IRC 论坛 第二步，使用项目邮件列表 使用有意义且描述明确的标题 使问题容易回复 使用清晰、正确、精准且合乎语法的语句 使用易于读取且标准的文件格式发送问题 精确地描述问题并言之有物 话不在多而在精 别动辄声称找到 Bug 低声下气不能代替你的功课 描述问题症状而非你的猜测 按发生时间先后列出问题症状 描述目标而不是过程 别要求使用私人电邮回复 清楚明确地表达你的问题以及需求 询问有关代码的问题时 别把自己家庭作业的问题贴上来 去掉无意义的提问句 即使你很急也不要在标题写紧急 礼多人不怪，而且有时还很有帮助 问题解决后，加个简短的补充说明 如何解读答案 RTFM 和 STFW：如何知道你已完全搞砸了 如果还是搞不懂 处理无礼的回应 如何避免扮演失败者 不该问的问题 好问题与蠢问题 如果得不到回答 如何更好地回答问题 相关资源 鸣谢 声明 许多项目在他们网站的帮助文档中链接了本指南。这很好，这正是我们想要的用途。但如果你是该项目管理员并试图创建指向本指南的超链接，请在超链接附近的显著位置注明：...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-02-26 23:23:16 +0800 CST'>February 26, 2024</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;951 words</footer>
+  <footer class="entry-footer"><span title='2024-02-26 23:23:16 +0800 CST'>February 26, 2024</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;952 words</footer>
   <a class="entry-link" aria-label="post link to 提问的智慧" href="http://localhost:1313/posts/how-to-question/"></a>
 </article>
     </main>
     
-<footer class="footer">
-    <span>&copy; 2024 <a href="http://localhost:1313/">Mr.zzz</a></span>
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 
 </html>

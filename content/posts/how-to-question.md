@@ -1,8 +1,15 @@
-+++
-title = '提问的智慧'
-date = 2024-02-26T23:23:16+08:00
-tags = ['方法论']
-+++
+---
+title: "提问的智慧"
+date: 2024-02-26T23:23:16+08:00
+categories: "哲学"
+tags: ["方法论"]
+weight: 1
+cover:
+  linkFullImages: true
+  responsiveImages: true
+  image: "/how-to-ask.png"
+  alt: "How To Ask Question"
+---
 
 # 提问的智慧
 
@@ -287,7 +294,7 @@ Stack Exchange 已经成长到[超过一百个网站](https://stackexchange.com/
 
 以上几点中，当你报告的是你认为可能在代码中的问题时，给黑客一个可以重现你的问题的环境尤其重要。当你这么做时，你得到有效的回答的机会和速度都会大大的提升。
 
-[Simon Tatham](http://www.chiark.greenend.org.uk/~sgtatham/) 写过一篇名为《[如何有效地报告Bug](http://www.chiark.greenend.org.uk/~sgtatham/bugs-cn.html)》的出色文章。强力推荐你也读一读。
+[Simon Tatham](http://www.chiark.greenend.org.uk/~sgtatham/) 写过一篇名为《[如何有效地报告 Bug](http://www.chiark.greenend.org.uk/~sgtatham/bugs-cn.html)》的出色文章。强力推荐你也读一读。
 
 ### 话不在多而在精
 
@@ -435,8 +442,6 @@ Stack Exchange 已经成长到[超过一百个网站](https://stackexchange.com/
 
 ## 如何解读答案
 
-
-
 ### RTFM 和 STFW：如何知道你已完全搞砸了
 
 有一个古老而神圣的传统：如果你收到`RTFM（Read The Fucking Manual）`的回应，回答者认为你**应该去读他妈的手册**。当然，基本上他是对的，你应该去读一读。
@@ -516,33 +521,23 @@ Jeff Bigler 的观察总结和这个相关也值得一读 (**[tact filters](http
 
 问题：[我怎么才能破解 root 帐号/窃取 OP 特权/读别人的邮件呢？](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md#q9)
 
-------
-
-
+---
 
 > 问题：我能在哪找到 X 程序或 X 资源？
 
 回答：就在我找到它的地方啊，白痴 —— 搜索引擎的那一头。天哪！难道还有人不会用 [Google](https://www.google.com/) 吗？
 
-
-
 > 问题：我怎样用 X 做 Y？
 
 回答：如果你想解决的是 Y ，提问时别给出可能并不恰当的方法。这种问题说明提问者不但对 X 完全无知，也对 Y 要解决的问题糊涂，还被特定形势禁锢了思维。最好忽略这种人，等他们把问题搞清楚了再说。
-
-
 
 > 问题：如何设定我的 shell 提示？？
 
 回答：如果你有足够的智慧提这个问题，你也该有足够的智慧去 [RTFM](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md#RTFM)，然后自己去找出来。
 
-
-
 > 问题：我可以用 Bass-o-matic 文件转换工具将 AcmeCorp 文件转换为 TeX 格式吗？
 
 回答：试试看就知道了。如果你试过，你就知道了答案，就不用浪费我的时间了。
-
-
 
 > 问题：我的{程序/设定/SQL 语句}没有用
 
@@ -552,29 +547,21 @@ Jeff Bigler 的观察总结和这个相关也值得一读 (**[tact filters](http
 - 真糟糕，希望你能搞定。
 - 这关我屁事？
 
-
-
 > 问题：我的 Windows 电脑有问题，你能帮我吗？
 
 回答：能啊，扔掉微软的垃圾，换个像 Linux 或 BSD 的开源操作系统吧。
 
 注意：如果程序有官方版 Windows 或者与 Windows 有互动（如 Samba），你**可以**问与 Windows 相关的问题，只是别对问题是由 Windows 操作系统而不是程序本身造成的回复感到惊讶， 因为 Windows 一般来说实在太烂，这种说法通常都是对的。
 
-
-
 > 问题：我的程序不会动了，我认为系统工具 X 有问题
 
 回答：你完全有可能是第一个注意到被成千上万用户反复使用的系统调用与函数库文件有明显缺陷的人，更有可能的是你完全没有根据。不同凡响的说法需要不同凡响的证据，当你这样声称时，你必须有清楚而详尽的缺陷说明文件作后盾。
-
-
 
 > 问题：我在安装 Linux（或者 X ）时有问题，你能帮我吗？
 
 回答：不能，我只有亲自在你的电脑上动手才能找到毛病。还是去找你当地的 Linux 使用群组者寻求实际的指导吧（你能在[这儿](http://www.linux.org/groups/index.html)找到用户群组的清单）。
 
 注意：如果安装问题与某 Linux 的发行版有关，在它的邮件列表、论坛或本地用户群组中提问也许是恰当的。此时，应描述问题的准确细节。在此之前，先用 `Linux` 和**所有**被怀疑的硬件作关键词仔细搜索。
-
-
 
 > 问题：我怎么才能破解 root 帐号/窃取 OP 特权/读别人的邮件呢？
 

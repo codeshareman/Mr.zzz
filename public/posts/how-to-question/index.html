@@ -18,7 +18,7 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
 原文版本历史 目录 声明 简介 在提问之前 当你提问时 慎选提问的论坛 Stack Overflow 网站和 IRC 论坛 第二步，使用项目邮件列表 使用有意义且描述明确的标题 使问题容易回复 使用清晰、正确、精准且合乎语法的语句 使用易于读取且标准的文件格式发送问题 精确地描述问题并言之有物 话不在多而在精 别动辄声称找到 Bug 低声下气不能代替你的功课 描述问题症状而非你的猜测 按发生时间先后列出问题症状 描述目标而不是过程 别要求使用私人电邮回复 清楚明确地表达你的问题以及需求 询问有关代码的问题时 别把自己家庭作业的问题贴上来 去掉无意义的提问句 即使你很急也不要在标题写紧急 礼多人不怪，而且有时还很有帮助 问题解决后，加个简短的补充说明 如何解读答案 RTFM 和 STFW：如何知道你已完全搞砸了 如果还是搞不懂 处理无礼的回应 如何避免扮演失败者 不该问的问题 好问题与蠢问题 如果得不到回答 如何更好地回答问题 相关资源 鸣谢 声明 许多项目在他们网站的帮助文档中链接了本指南。这很好，这正是我们想要的用途。但如果你是该项目管理员并试图创建指向本指南的超链接，请在超链接附近的显著位置注明：">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/how-to-question/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -109,13 +109,18 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/categories/" title="Categories">
-                    <span>Categories</span>
+                <a href="http://localhost:1313/categories/" title="分类">
+                    <span>分类</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tags/" title="Tags">
-                    <span>Tags</span>
+                <a href="http://localhost:1313/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
                 </a>
             </li>
         </ul>
@@ -128,17 +133,14 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
     <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       提问的智慧
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
     </h1>
-    <div class="post-meta"><span title='2024-02-26 23:23:16 +0800 CST'>February 26, 2024</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;951 words
+    <div class="post-meta"><span title='2024-02-26 23:23:16 +0800 CST'>February 26, 2024</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;952 words
 
 </div>
-  </header> <div class="toc">
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://localhost:1313/how-to-ask.png" alt="How To Ask Question">
+        
+</figure><div class="toc">
     <details  open>
         <summary accesskey="c" title="(Alt + C)">
             <span class="details">Table of Contents</span>
@@ -239,7 +241,12 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
 </div>
 
   <div class="post-content"><h1 id="提问的智慧">提问的智慧<a hidden class="anchor" aria-hidden="true" href="#提问的智慧">#</a></h1>
-<p><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pulls"><img loading="lazy" src="https://camo.githubusercontent.com/a5ceaa9e114c16d2c7cfd7ef62032b26b6eb47b61b1263ae4ebc5497fedd45b2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e7376673f7374796c653d666c61742d737175617265" alt="PRs Welcome"  />
+<p><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pulls">
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://camo.githubusercontent.com/a5ceaa9e114c16d2c7cfd7ef62032b26b6eb47b61b1263ae4ebc5497fedd45b2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e7376673f7374796c653d666c61742d737175617265">
+<img src="https://camo.githubusercontent.com/a5ceaa9e114c16d2c7cfd7ef62032b26b6eb47b61b1263ae4ebc5497fedd45b2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e7376673f7374796c653d666c61742d737175617265" alt="PRs Welcome"  />
+</a>
+</div>
 </a></p>
 <p><strong>How To Ask Questions The Smart Way</strong></p>
 <p>Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen</p>
@@ -455,7 +462,7 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
 </ul>
 <p>尽量去揣测一个黑客会怎样反问你，在你提问之前预先将黑客们可能提出的问题回答一遍。</p>
 <p>以上几点中，当你报告的是你认为可能在代码中的问题时，给黑客一个可以重现你的问题的环境尤其重要。当你这么做时，你得到有效的回答的机会和速度都会大大的提升。</p>
-<p><a href="http://www.chiark.greenend.org.uk/~sgtatham/">Simon Tatham</a> 写过一篇名为《<a href="http://www.chiark.greenend.org.uk/~sgtatham/bugs-cn.html">如何有效地报告Bug</a>》的出色文章。强力推荐你也读一读。</p>
+<p><a href="http://www.chiark.greenend.org.uk/~sgtatham/">Simon Tatham</a> 写过一篇名为《<a href="http://www.chiark.greenend.org.uk/~sgtatham/bugs-cn.html">如何有效地报告 Bug</a>》的出色文章。强力推荐你也读一读。</p>
 <h3 id="话不在多而在精">话不在多而在精<a hidden class="anchor" aria-hidden="true" href="#话不在多而在精">#</a></h3>
 <p>你需要提供精确有内容的信息。这并不是要求你简单的把成堆的出错代码或者资料完全转录到你的提问中。如果你有庞大而复杂的测试样例能重现程序挂掉的情境，尽量将它剪裁得越小越好。</p>
 <p>这样做的用处至少有三点。 第一，表现出你为简化问题付出了努力，这可以使你得到回答的机会增加； 第二，简化问题使你更有可能得到<strong>有用</strong>的答案； 第三，在精炼你的 bug 报告的过程中，你很可能就自己找到了解决方法或权宜之计。</p>
@@ -703,125 +710,30 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
     </li>
 </ul>
 
-  </footer>
+  </footer><script
+  src="https://giscus.app/client.js"
+  data-repo="codeshareman/Mr.zzz"
+  data-repo-id="R_kgDOLYKsGw"
+  data-category="Announcements"
+  data-category-id="DIC_kwDOLYKsG84Cdj2o"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="preferred_color_scheme"
+  data-lang="zh-CN"
+  data-loading="lazy"
+  crossorigin="anonymous"
+  async
+></script>
+
 </article>
     </main>
     
-<footer class="footer">
-    <span>&copy; 2024 <a href="http://localhost:1313/">Mr.zzz</a></span>
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-<script>
-    document.querySelectorAll('pre > code').forEach((codeblock) => {
-        const container = codeblock.parentNode.parentNode;
-
-        const copybutton = document.createElement('button');
-        copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
-
-        function copyingDone() {
-            copybutton.innerHTML = 'copied!';
-            setTimeout(() => {
-                copybutton.innerHTML = 'copy';
-            }, 2000);
-        }
-
-        copybutton.addEventListener('click', (cb) => {
-            if ('clipboard' in navigator) {
-                navigator.clipboard.writeText(codeblock.textContent);
-                copyingDone();
-                return;
-            }
-
-            const range = document.createRange();
-            range.selectNodeContents(codeblock);
-            const selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-            try {
-                document.execCommand('copy');
-                copyingDone();
-            } catch (e) { };
-            selection.removeRange(range);
-        });
-
-        if (container.classList.contains("highlight")) {
-            container.appendChild(copybutton);
-        } else if (container.parentNode.firstChild == container) {
-            
-        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-            
-            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
-        } else {
-            
-            codeblock.parentNode.appendChild(copybutton);
-        }
-    });
-</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
